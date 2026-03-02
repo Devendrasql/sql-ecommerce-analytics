@@ -79,27 +79,3 @@ CREATE TABLE geolocation (
     geolocation_city TEXT,
     geolocation_state TEXT
 );
-
-select count(*) from customers
-union all
-select count(*) from orders
-union all
-select count(*) from order_items
-union all
-select count(*) from products
-union all
-select count(*) from sellers
-
-
-select * from orders limit 10;
-
-SELECT * FROM products WHERE product_category_name IS NULL;
-
-SELECT COUNT(*) FROM products WHERE product_category_name IS NULL;
-
-SELECT COUNT(*) FROM orders WHERE order_delivered_customer_date IS NULL;
-
-SELECT geolocation_zip_code_prefix, COUNT(*)
-FROM geolocation
-GROUP BY geolocation_zip_code_prefix
-HAVING COUNT(*) > 1;
