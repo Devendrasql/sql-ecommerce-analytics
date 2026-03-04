@@ -11,3 +11,4 @@ FROM customers
 ) t
 WHERE rn > 1
 );
+

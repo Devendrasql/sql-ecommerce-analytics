@@ -3,7 +3,14 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/01_schema/create_tables.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/02_data_cleaning/cleaning_queries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/02_data_cleaning/remove_duplicate_customers.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/03_queries/analytics_queries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/03_queries/part_b_queries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/03_queries/part_c_aggregations.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/03_queries/part_d_joins.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/03_queries/part_e_cte_subqueries.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/03_queries/part_f_window_functions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/04_optimization/explain_queries.sql" dialect="PostgreSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
